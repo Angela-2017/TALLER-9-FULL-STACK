@@ -1,0 +1,119 @@
+/* ESTILOS GLOBALES*/
+body{
+    margin: 0px;
+}
+
+a{
+    font-family: "Jost";/* para modificar a modo general las etiquetas del archivo html*/
+
+}
+button{
+    padding: 12px 25px; /* 12px de borde interno a los lados y 25px arriba y abajo*/
+    font-family: "Jost";
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button__orange{
+    margin-right: 10px;/* borde externo derecho para separar el boton del elemento a la derecha un poco*/
+    background-color: #fd909e;
+    color: #fff;
+    border: none; 
+}
+
+p{
+    font-family: "Jost";
+    font-size: 13px;
+    font-weight: 300;/* grososr de letra*/
+}
+
+
+
+
+/* ESTILOS ESPECIFICOS PARA CADA CONTNEEDOR*/
+/* ESTILOS HEADER*/
+header{
+    display: flex;/* para acomodar elementos en filas o columnas*/
+    margin: 0 100px; /* para el borde externo a los lados*/
+    justify-content: space-between;/* separar elementos lo mas q se pueda*/
+    align-items: center;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav nav ul{
+    display: flex;
+    gap: 45px;/* para el espacio entre elementos*/
+    list-style: none;/* para modificar las viñetas de la lista*/
+}
+.header__nav nav ul a{
+    text-decoration: none;/* para quitar la linea subrayada solo a este elemento*/
+    color: #454868;
+}
+
+.header__settings{
+    display: flex;
+    gap: 70PX;
+    align-items: center;/* para alinear verticalmente para q queden centrados*/
+}
+
+.header__settings div{
+    display: flex;
+    gap: 10PX;
+    align-items: center;/* para alinear verticalmente al centro*/
+    font-family: "Jost";/* para tipo de letra*/
+    font-size: 15px;/* para tamaño de letra*/
+    font-weight: 400;/* para grosor de letra*/
+} 
+
+.header__settings button{
+    background-color: transparent;/* para de fondo de boton*/
+    border: 1px solid #45486854; 
+}
+
+/* ESTILOS BANNER*/
+#banner{
+    display: flex;
+    margin: 25px 100px;/* borde externo*/
+    padding: 90px 80px;/* borde interno*/
+    background: linear-gradient(313.18deg, #EE9AE5 3.28%, #5961F9 97.04%);/*Para dar color de fondo al banner y q que quede degradado*/
+    border-radius: 48px 48px 300px 48px;/* borde redondos al banner*/
+}
+
+h1{/* estilo para la etiqueta h1 del banner*/
+    margin: 0px;
+    font-family: "Jost";
+    font-size: 50px;
+    font-weight: 600;/*especifica el peso o grueso de la letra*/
+    color: #fff;
+    line-height: 70px;/*controla el espacio entre líneas base*/
+    letter-spacing: -0.64px;/*modificar el espacio entre las letras, aproximándolas o separándolas entre sí*/
+}
+
+#banner img{
+   width: 490px;
+   height: 290px;
+}
+
+#banner p{
+    margin: 25px 0px;
+    color: #fff;
+}
+
+.button__white{
+    padding: 12px 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff; 
+}
+
+#section-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 100px;
+    padding: 20px 80px;
+}
