@@ -1,0 +1,41 @@
+header{
+    display: flex;/* para acomodar elementos en filas o columnas*/
+    margin: 0 100px; /* para el borde externo a los lados*/
+    justify-content: space-between;/* separar elementos lo mas q se pueda*/
+    align-items: center;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav nav ul{
+    display: flex;
+    gap: 45px;/* para el espacio entre elementos*/
+    list-style: none;/* para modificar las viñetas de la lista*/
+}
+.header__nav nav ul a{
+    text-decoration: none;/* para quitar la linea subrayada solo a este elemento*/
+    color: #454868;
+}
+
+.header__settings{
+    display: flex;
+    gap: 70PX;
+    align-items: center;/* para alinear verticalmente para q queden centrados*/
+}
+
+.header__settings div{
+    display: flex;
+    gap: 10PX;
+    align-items: center;/* para alinear verticalmente al centro*/
+    font-family: "Jost";/* para tipo de letra*/
+    font-size: 15px;/* para tamaño de letra*/
+    font-weight: 400;/* para grosor de letra*/
+} 
+
+.header__settings button{
+    background-color: transparent;/* para de fondo de boton*/
+    border: 1px solid #45486854; 
+}

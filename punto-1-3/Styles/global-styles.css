@@ -1,0 +1,38 @@
+/* Estilos globales para modificar varios elementos en general, si ya se quiere modificar alguna etiqueta en un contenedor especifico se llama ese contenedor y su id o clase y luego la etiqueta para modificar especificamente ese contenedor, ese div, section o etiqueta*/
+body{
+    margin: 0px;
+}
+
+a{
+    font-family: "Jost";/* para modificar a modo general las etiquetas del archivo html*/
+
+}
+button{
+    padding: 12px 25px; /* 12px de borde interno a los lados y 25px arriba y abajo*/
+    font-family: "Jost";
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button__orange{
+    margin-right: 10px;/* borde externo derecho para separar el boton del elemento a la derecha un poco*/
+    background-color: #fd909e;
+    color: #fff;
+    border: none; 
+}
+
+p{
+    font-family: "Jost";
+    font-size: 13px;
+    font-weight: 300;/* grososr de letra*/
+}
+
+h2{
+    margin: 5px;
+    color:  #454868;
+    font-family: "Jost";
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.64px;
+}

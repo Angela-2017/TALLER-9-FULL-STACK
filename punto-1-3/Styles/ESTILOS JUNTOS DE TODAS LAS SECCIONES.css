@@ -1,4 +1,5 @@
 /* ESTILOS GLOBALES*/
+/* Estilos globales para modificar varios elementos en general, si ya se quiere modificar alguna etiqueta en un contenedor especifico se llama ese contenedor y su id o clase y luego la etiqueta para modificar especificamente ese contenedor, ese div, section o etiqueta*/
 body{
     margin: 0px;
 }
@@ -28,7 +29,14 @@ p{
     font-weight: 300;/* grososr de letra*/
 }
 
-
+h2{
+    margin: 5px;
+    color:  #454868;
+    font-family: "Jost";
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.64px;
+}
 
 
 /* ESTILOS ESPECIFICOS PARA CADA CONTNEEDOR*/
@@ -111,9 +119,47 @@ h1{/* estilo para la etiqueta h1 del banner*/
     border: 1px solid #fff; 
 }
 
+
+/* ESTILOS SECTION-1*/
 #section-1{
     display: flex;
     justify-content: space-between;
     margin: 25px 100px;
     padding: 20px 80px;
 }
+
+.section-1__info{
+    width: 30%;/*ocupa el 30% del section-1 */
+}
+
+
+
+.section-1__info p{
+    color: #454868;
+    text-align: justify;
+}
+
+.section-1__card{
+    display: flex;
+    flex-direction: column;/*alineacion de columna*/
+    justify-content: space-between;/*para separar elementos lo mas q se pueda*/
+    align-items: center;/*para centrarlo*/
+    width: min-content;
+
+
+    height: 195px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 48px;
+    box-shadow: 0px 10px 50px #45486833;
+}
+
+.section-1__card h3{
+    font-family: "Jost";
+    color: #454868;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    text-align: center; 
+}
+
