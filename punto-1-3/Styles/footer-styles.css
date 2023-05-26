@@ -1,0 +1,53 @@
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*alinea verticalmente*/
+
+
+    margin-top: 80px;/*margen externo solo arriba*/
+    padding: 20px 100px;/*borde interno arriba y abajo de 20px y a los lados de 100px*/
+    background-color: #010851;
+    color: #fff;
+
+}
+
+.footer__info{
+    width: 35%;/*ancho en porcentaje q va a ocupar en relacion a todo el footer*/
+}
+
+input{
+    width: 210px;/*ancho*/
+    padding: 15px 15px;/*espaciado interno para q quede mas grande el cajon para digitar el correo*/
+    margin-right: -15px;/*para sobreponer el boton  hacia la derecha sobre la caja de correo electronico*/
+    border: none;
+    border-radius: 10px;
+    background-color: #45486899
+}
+.button__pink{
+    background-color: #ED80FD;
+    color: #fff;
+    border: none;/*para q quede sin borde*/
+}
+
+table{
+    font-family: "Jost";
+    text-align: left;/* para q toda la info de la tabla se alinee hacia la izquierda*/
+
+}
+
+tr{
+    height: 40px;/*altura*/
+}
+
+th{/*etiqueta de los encabezados de la tabla*/
+    height: 80px;
+}
+
+td{
+    padding-right: 50px;/*para separar internamente cada una de las filas de la tabla*/
+}
+
+td a {
+
+    color: #fff;
+}

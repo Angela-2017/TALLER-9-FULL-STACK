@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./Styles/banner-styles.css">
     <link rel="stylesheet" href="./Styles/section-1-styles.css">
     <link rel="stylesheet" href="./Styles/section-2-styles.css">
+    <link rel="stylesheet" href="./Styles/footer-styles.css">
 </head>
 <body>
     <header>
@@ -65,7 +66,7 @@
                 height="120px">
                 <h3>Virtualidad y educación</h3>
             </div>
-            <div class="section-1__card">
+            <div class="section-1__card section-1__card-down"> <!-- se le asigno otra clase a section-__card, cuando se dio espacio html entiende q tiene otra clase dentro -->
                 <h3>Alcance de objetivos</h3>
                 <img src="./public/images/section1-goals.png" 
                 alt="goals"
@@ -114,7 +115,7 @@
         </section>
     </main>
     <footer id="footer">
-        <div>
+        <div class="footer__info">
             <img src="./public/images/footer-logo.png"
              alt="footer-logo"
              width="200px"
@@ -129,7 +130,7 @@
                     name="user_name"
                     id="email"
                     placeholder="correo electronico">
-                    <button>Suscribirse</button>
+                    <button class="button__pink">Suscribirse</button>
                 </form>
              </div>
         </div>
