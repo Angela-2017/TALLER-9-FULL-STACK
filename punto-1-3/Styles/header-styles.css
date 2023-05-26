@@ -2,12 +2,12 @@ header{
     display: flex;/* para acomodar elementos en filas o columnas*/
     margin: 0 100px; /* para el borde externo a los lados*/
     justify-content: space-between;/* separar elementos lo mas q se pueda*/
-    align-items: center;
+    align-items: center;/* para centrar elementos*/
 }
 
 .header__nav{
     display: flex;
-    align-items: center;
+    align-items: center;/* para centrar elementos*/
 }
 
 .header__nav nav ul{
@@ -16,19 +16,19 @@ header{
     list-style: none;/* para modificar las viñetas de la lista*/
 }
 .header__nav nav ul a{
-    text-decoration: none;/* para quitar la linea subrayada solo a este elemento*/
+    text-decoration: none;/* para quitar o poner la linea subrayada solo a este elemento*/
     color: #454868;
 }
 
 .header__settings{
     display: flex;
-    gap: 70PX;
+    gap: 70PX;/* espacio entre elementos*/
     align-items: center;/* para alinear verticalmente para q queden centrados*/
 }
 
 .header__settings div{
     display: flex;
-    gap: 10PX;
+    gap: 10PX;/* para separar entre elementos*/
     align-items: center;/* para alinear verticalmente al centro*/
     font-family: "Jost";/* para tipo de letra*/
     font-size: 15px;/* para tamaño de letra*/

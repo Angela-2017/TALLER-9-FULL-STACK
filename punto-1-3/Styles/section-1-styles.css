@@ -1,8 +1,8 @@
 #section-1{
     display: flex;
-    justify-content: space-between;
-    margin: 25px 100px;
-    padding: 20px 80px;
+    justify-content: space-between;/*para separar elementos lo mas q se pueda*/
+    margin: 25px 100px;/*borde externo*/
+    padding: 20px 80px;/*borde interno*/
 }
 
 .section-1__info{
@@ -20,22 +20,22 @@
     display: flex;
     flex-direction: column;/*alineacion de columna*/
     justify-content: space-between;/*para separar elementos lo mas q se pueda*/
-    align-items: center;/*para centrarlo*/
+    align-items: center;/* para alinear verticalmente para q queden centrados*/
     width: min-content;
 
 
-    height: 195px;
-    padding: 30px;
-    text-align: center;
-    border-radius: 48px;
-    box-shadow: 0px 10px 50px #45486833;
+    height: 195px;/*alto*/
+    padding: 30px;/*borde interno*/
+    text-align: center;/*centra los elementos*/
+    border-radius: 48px;/*borde redondeado*/
+    box-shadow: 0px 10px 50px #45486833;/*para poner sombras*/
 }
 
 .section-1__card h3{
     font-family: "Jost";
     color: #454868;
     font-size: 18px;
-    line-height: 20px;
-    letter-spacing: -0.64px;
-    text-align: center; 
+    line-height: 20px;/*controla el espacio entre líneas base*/
+    letter-spacing: -0.64px;/*modificar el espacio entre las letras, aproximándolas o separándolas entre sí*/
+    text-align: center; /*centra los elementos*/
 }

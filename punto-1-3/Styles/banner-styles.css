@@ -8,8 +8,8 @@
 
 h1{/* estilo para la etiqueta h1 del banner*/
     margin: 0px;
-    font-family: "Jost";
-    font-size: 50px;
+    font-family: "Jost";/*tipo de fuente de letra*/
+    font-size: 50px;/*tamaño letra*/
     font-weight: 600;/*especifica el peso o grueso de la letra*/
     color: #fff;
     line-height: 70px;/*controla el espacio entre líneas base*/
@@ -17,18 +17,18 @@ h1{/* estilo para la etiqueta h1 del banner*/
 }
 
 #banner img{
-   width: 490px;
-   height: 290px;
+   width: 490px;/*ancho imagen*/
+   height: 290px;/*alto imagen*/
 }
 
 #banner p{
-    margin: 25px 0px;
+    margin: 25px 0px;/*borde externo*/
     color: #fff;
 }
 
 .button__white{
-    padding: 12px 35px;
-    background-color: transparent;
+    padding: 12px 35px;/*borde interno*/
+    background-color: transparent;/*color fondo*/
     color: white;
-    border: 1px solid #fff; 
+    border: 1px solid #fff; /*borde linea*/
 }

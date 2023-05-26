@@ -1,6 +1,6 @@
 /* Estilos globales para modificar varios elementos en general, si ya se quiere modificar alguna etiqueta en un contenedor especifico se llama ese contenedor y su id o clase y luego la etiqueta para modificar especificamente ese contenedor, ese div, section o etiqueta*/
 body{
-    margin: 0px;
+    margin: 0px;/* borde externo*/
 }
 
 a{
@@ -10,9 +10,9 @@ a{
 button{
     padding: 12px 25px; /* 12px de borde interno a los lados y 25px arriba y abajo*/
     font-family: "Jost";
-    font-weight: bold;
-    border-radius: 10px;
-    cursor: pointer;
+    font-weight: bold;/* grosor de letra*/
+    border-radius: 10px;/* borde redondeado*/
+    cursor: pointer;/* cambia la forma del cursor*/
 }
 
 .button__orange{
@@ -25,14 +25,14 @@ button{
 p{
     font-family: "Jost";
     font-size: 13px;
-    font-weight: 300;/* grososr de letra*/
+    font-weight: 300;/* grosor de letra*/
 }
 
 h2{
-    margin: 5px;
+    margin: 5px;/*borde externo*/
     color:  #454868;
     font-family: "Jost";
     font-size: 48px;
-    line-height: 55px;
-    letter-spacing: -0.64px;
+    line-height: 55px;/*controla el espacio entre líneas base*/
+    letter-spacing: -0.64px;/*modificar el espacio entre las letras, aproximándolas o separándolas entre sí*/
 }

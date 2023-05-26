@@ -1,0 +1,24 @@
+#section-2{
+    padding: 20px 180px;
+    background-color: #ed80fd26;
+}
+
+.section-2__info{
+    display: flex;
+    margin: 70px 0px;
+    gap: 35px;
+}
+
+.section-2__info h2{
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.section-2__info img{
+    width: 450px;
+    height: 300px;
+}
+
+.section-2__sub-pink{
+    color: #ed80fd;
+}
