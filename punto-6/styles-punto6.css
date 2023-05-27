@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0px 500px;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.link__1{
+    margin-top: 12px;
+    font-size: 26px;
+    font-weight: 600;
+    color: yellow;
+}
+
+.link__2{
+    margin-top: 30px;
+    font-size: 26px;
+    font-weight: 600;
+    color: purple;
+}
