@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    align-items: center;
+    margin: 0px 100px;
+    background-color: rgb(231, 188, 245);
+    padding: 5px 10px 3px 20px;
+    width: 45%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.header__settings{
+    background-color: blue;
+    color: #fff;
+    padding: 11px;
+    gap: 28px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header__nav ul{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+    color: #fff;
+}
